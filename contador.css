@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+body {
+  width: 100%;
+  font: normal bold 16px / normal tahoma;
+}
+
+article {
+  width: 300px;
+  text-align: center;
+  background-color: #f08080;
+  border-radius: 10px;
+  margin: 50px auto 20px;
+  padding: 5px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px #dc143c;
+}
+article h3 {
+  padding: 10px;
+  color: #dc143c;
+}
+article .count {
+  padding: 5px;
+}
+article #timer {
+  padding: 5px;
+  color: #FFF0F5	;
+  background-color: #B22222	;
+  border-radius: 2px;
+
+}
+
+article #botao{
+  color: #B22222	;
+  background-color: #FFF5EE		;
+  border-radius: 5px;
+  padding: auto;
+  font-weight:700;
+  border-style: inset #B22222 ;
+} 
